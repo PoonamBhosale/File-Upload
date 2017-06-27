@@ -1,0 +1,7 @@
+<md-input-container md-no-float class="md-block padding-0 flex margin-0">
+    <a class="md-body-1" ngf-select="vm.bulkupload($files)" md-colors="{color:'blue-600'}">Select file to upload</a>
+    <input id="textInput" ng-model="fileBulk" placeholder="" aria-label="Upload MOP" class="padding-right-25" readonly>
+    <md-button class="md-icon-button closebutton" aria-label="Expand" ng-click="vm.clearBulk()">
+        <md-icon md-font-icon="zmdi zmdi-close-circle"></md-icon>
+    </md-button>
+</md-input-container>
